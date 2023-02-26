@@ -1,0 +1,135 @@
+@charset "UTF-8";
+div#zawartosc {color:rgb(54, 54, 54); margin-left:10em; padding: 1px 0 1px 1em;}
+body {
+    background-color:#ffcc00;
+    }
+nav {
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    text-align: center;
+    border: 0px solid white;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    margin-left: 1px;
+
+    overflow: hidden;
+    background-color: #e09e00;
+    position: static; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;;
+    color:black;
+}
+ul.topbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+ul.topbar>li{
+    display: table-cell;
+    width: 20%;
+    height: 60%;
+}
+img.user {
+  width: 45px; /* desired width */
+  height: 45px; /* desired height */
+}
+ul.menu {
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+  
+  ul.menu > li {
+    display: table-cell;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    border: none;
+  }
+  .menu a:hover {
+    background: #d68f00;
+    color: black;
+  }
+  div {
+    display: block;
+}
+#zawartosc img{
+    border: 10px solid #e6a600;
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  #left-block img {
+    max-width: 300px;
+    height: auto;
+}
+.lewo {
+    padding: 20px;
+    float: left;
+    width: 50%;
+  }
+
+  .srodek {
+    text-align: center;
+  }
+  .prawo{
+    text-align: right;
+  }
+  form.srodek {
+    text-align:center;
+}
+#left-block {
+    float: left;
+    background-color: #e09e00;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+form div {
+    margin-bottom: 10px;
+}
+.custom-input{
+  width: 500px;
+}
+.custom-textarea{
+  width: 500px;
+  height: 100px;
+  resize: both;
+}
+
+footer {
+  position: fixed;
+  display: block;
+  color: #000;
+  background-color: #e6b800;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  /*height: 100vh;*/
+}
+
+.srodek {
+  text-align: center;
+}
+
+nav a:hover {background-color:#fdc153;}
